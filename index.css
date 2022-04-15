@@ -299,15 +299,15 @@ button {
     overflow: hidden;
     opacity: 1;
     z-index: 11;
-    -webkit-transition: opacity 1s;
-    transition: opacity 1s;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
   }
   .menu-hidden {
     height: 0;
     padding: 0;
     opacity: 0;
-    -webkit-transition: opacity 1s, padding 0s ease 1s, height 0s ease 1s;
-    transition: opacity 1s, padding 0s ease 1s, height 0s ease 1s;
+    -webkit-transition: opacity .4s, padding 0s ease .4s, height 0s ease .4s;
+    transition: opacity .4s, padding 0s ease .4s, height 0s ease .4s;
   }
   .menu__lang {
     display: inline-block;
@@ -357,3 +357,40 @@ button {
     height: 30px;
   }
 }
+
+.servises {
+  padding-top: 120px;
+  padding-bottom: 200px;
+  color: #000000;
+}
+
+.servises__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 9%;
+}
+
+.servises__item {
+  width: 27%;
+  min-width: 250px;
+  margin-top: 60px;
+}
+
+.servises__heading {
+  margin: 20px 0;
+  font-size: 19px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.servises__text {
+  font-size: 14px;
+  line-height: 28px;
+}
+/*# sourceMappingURL=index.css.map */
