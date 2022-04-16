@@ -393,4 +393,147 @@ button {
   font-size: 14px;
   line-height: 28px;
 }
+
+.projects {
+  background: url(./assets/img/projects.jpg) center;
+  background-size: cover;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 860px;
+}
+
+.project__content {
+  height: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project__text {
+  margin: 50px 0;
+  font-size: 24px;
+  list-style: none;
+  line-height: 200%;
+}
+
+.project__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.project__link::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 8px;
+  margin-left: 10px;
+}
+
+.project__link-border {
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.project__link-border::after {
+  background: url("./assets/img/arrow-black.png");
+}
+
+.project__link-dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+.project__link-dark::after {
+  background: url("./assets/img/arrow-white.png");
+}
+
+.project__link-light {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.project__link-light::after {
+  background: url("./assets/img/arrow-white.png");
+}
+
+.gp {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.tb {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.ad {
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .project {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 -7%;
+    padding: 50px;
+  }
+  .gp {
+    background: #bdcbd7ce;
+  }
+  .tb {
+    background: #fed500ce;
+  }
+  .ad {
+    background: #ffffffce;
+  }
+}
+
+.all {
+  height: 212px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("./assets/img/allbg.jpeg");
+  background-size: cover;
+}
 /*# sourceMappingURL=index.css.map */
