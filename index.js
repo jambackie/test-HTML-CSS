@@ -7,12 +7,14 @@ function openMenu () {
   toggleIcon.classList.remove('nav-open')
   toggleIcon.classList.add('nav-close')
   mobileMenu.classList.remove('menu-hidden')
+  document.body.classList.add('stop-scroll')
 }
 
 function closeMenu () {
   toggleIcon.classList.remove('nav-close')
   toggleIcon.classList.add('nav-open')
   mobileMenu.classList.add('menu-hidden')
+  document.body.classList.remove('stop-scroll')
 }
 
 toggleBtn.addEventListener('click', () => {
