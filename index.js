@@ -22,4 +22,3 @@ toggleBtn.addEventListener('click', () => {
 })
 
 mobileLinks.forEach(el => el.addEventListener('click', closeMenu))
-console.log(toggleBtn)
