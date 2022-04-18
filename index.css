@@ -98,6 +98,12 @@ button {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -658,6 +664,10 @@ button {
   }
 }
 
+.reviews {
+  padding-bottom: 200px;
+}
+
 .reviews__quote {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -801,6 +811,46 @@ button {
   }
   .reviews__btn {
     display: none;
+  }
+}
+
+.contacts {
+  padding: 100px 6%;
+  height: 582px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("./assets/img/contacts.jpeg") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Gilroy';
+  font-weight: 800;
+  line-height: 110px;
+}
+
+.contacts__title {
+  margin-bottom: 30px;
+}
+
+.contacts__mail {
+  font-size: 30px;
+}
+
+.contacts__tel {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1050px) {
+  .contacts {
+    line-height: 50px;
   }
 }
 /*# sourceMappingURL=index.css.map */
